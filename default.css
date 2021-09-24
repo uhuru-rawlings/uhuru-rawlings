@@ -1,0 +1,161 @@
+.formdata{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(44, 42, 42);
+}
+input[type=submit]{
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 21px;
+    border: 0;
+    border-radius: 5px;
+    transition: 3s;
+}
+input[type=submit]:hover{
+    color: green;
+    border: 2px solid green;
+    background-color: rgb(232, 252, 232);
+}
+input[type=text]{
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+input[type=email]{
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+input[type=number]{
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+input[type=file]{
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+*:focus{
+    outline: none;
+}
+input[type=date]{
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+select{
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+input[type=password]{
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+.coll{
+    display: flex;
+}
+.text{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+}
+.form{
+    border: 2px solid rgb(220, 250, 220);
+    border-radius: 10px;
+}
+form{
+    padding: 30px;
+}
+.rows1{
+    width: 250px;
+}
+.rows2{
+    width: 100%;
+    padding: 40px;
+}
+body{
+    background-color: rgb(232, 252, 232);
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+    color:rgb(44, 43, 43);
+}
+.sub-menu{
+    display: none;
+}
+.sub-menu a{
+    text-decoration: none;
+    font-size: 17px;
+}
+ul li:hover .sub-menu{
+    display: block;
+}
+#rows{
+    border-right: 1px solid green;
+}
+table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+tr,th,td{
+    border: 1px solid gray;
+    text-align: center;
+}
+.topbar{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+textarea{
+    max-width: 400px;
+    max-height: 150px;
+    min-width: 400px;
+    min-height: 150px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 1300px){
+    .body{
+        display: none;
+    }
+}
+img{
+    border-radius: 50%;
+}
