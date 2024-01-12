@@ -1,5 +1,5 @@
 <h1>Uhuru Otieno Rawlings</h1>
-<p>Fullstack Web Developer</p>
+<p>Software Engineer</p>
 
 
 [![wakatime](https://wakatime.com/badge/user/c33ed62c-0ee3-4b2e-823f-a0ec577305fc.svg)](https://wakatime.com/@c33ed62c-0ee3-4b2e-823f-a0ec577305fc)
